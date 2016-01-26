@@ -10,7 +10,7 @@ describe("MovieTicket", function(){
 
 describe("Ticket", function() {
   it('will return a movie ticket cost of $7 for customers age 55 or older', function() {
-var newMovieTicket = new MovieTicket("Batman", '12:30', 60);
+    var newMovieTicket = new MovieTicket("Batman", '12:30', 60);
     expect(newMovieTicket.ticket()).to.equal("$7");
   });
 });
