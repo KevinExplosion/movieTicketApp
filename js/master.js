@@ -29,8 +29,9 @@ $(document).ready(function(){
 
       var movie_ticket = new MovieTicket(movie_name, movie_date, movie_time, movie_age);
 
-      $("#movieTickets").append("<p>You are going to see '" + movie_ticket.name + "' on " + movie_ticket.date
-      + " at " + movie_ticket.time + " o'clock. Your ticket holder's age is " + movie_ticket.age + " years old.</p>");
+      $("#movieTickets").text("You are going to see '" + movie_ticket.name + "' on " + movie_ticket.date
+      + " at " + movie_ticket.time + " o'clock. Your ticket holder's age is " + movie_ticket.age + " years old.");
+      $("#movieCost").text(movie_ticket.ticket());
 
   });
 });
