@@ -1,53 +1,14 @@
-# Installation Instructions:
-
-##### Run command using your terminal within empty Project Folder i.e `$ ~/Desktop/empty_project`
-##### Install core files + automate .pairs file with nano:
-
-```bash
-curl -L -o x.zip https://github.com/TimDurward/task-runner/archive/master.zip && unzip x.zip && rm x.zip && mv task-runner-master/* . && rm -r task-runner-master/ && echo -e "pairs:\n  td: Tim Durward\n  mkn: Michael Kaiser-Nyman\nemail_addresses:\n  td: timothy.a.durward@gmail.com\n  mkn: michael@gmail.com" >> ~/.pairs && nano ~/.pairs && echo -e "\n\nInstalled:\nCore files\n.Pairs\n\nEnjoy - github.com/timdurward\n"
-```
-##### Install core files without .pairs automation:
-```bash
-curl -L -o x.zip https://github.com/TimDurward/task-runner/archive/master.zip && unzip x.zip && rm x.zip && mv task-runner-master/* . && rm -r task-runner-master/ && echo -e "\n\nInstalled:\nCore files\n\nEnjoy - github.com/timdurward\n"
-```
-#### Files/Folders included
-
-* Index.html
-* README.md
-* Js Folder
- * Master.js
- * Jquery.js
-* CSS Folder
-  * Master.css
-  * Bootstrap.css
-* Spec Folder
-  * Chai.js
-  * Mocha.js
-  * Mocha.css
-  * Specs.js
-  * spec-runner.html
-
-###### Optional
-* .pairs (installed within `~/.pairs`)
-
-##### Scripts/CSS are linked to index & spec-runner
-
-
-***
-
-<!-- Delete Above -->
-
 
 <!-- README FILE. Replace where needed -->
-# _Application Name_
+# _Movie Ticket Application_
 
-#### _Short Summary of Application!_
+#### _Add your age, time, and movie you'd like to watch_
 
-#### By _**Tim Durward**_
+#### By _**Tim Durward, Kevin Mattison**_
 
 ## Description
 
-_Brief Description of Application._
+_A one of a kind Movie App. Best one in the app store. I'd tell you more, but it'd ruin the suprise!_
 
 ## Setup/Installation Requirements
 
@@ -60,13 +21,13 @@ _Brief Description of Application._
 
 ## Support and contact details
 
-_Support and Contact Description_
+_If you find any bugs or errors, please let Tim or Kevin know via their Github Accounts._
 
 ## Technologies Used
 
 * _html, css, markdown_
-* _Jquery, javascript_
-* _bootstrap, fontAwesome_
+* _Jquery, javascript, MochaJs, ChaiJs_
+* _bootstrap_
 * _hard work_
 
 ### License
@@ -92,4 +53,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-**_Tim Durward_** Copyright (c) 2015
+**_Tim Durward, Kevin Mattison_** Copyright (c) 2016
